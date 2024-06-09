@@ -1,7 +1,7 @@
 const questions = [
     {
-        question: "What is the capital of France?",
-        answers: ["Paris", "London", "Berlin", "Madrid"],
+        question: "In which year did World War II end??",
+        answers: ["1945", "1946", "1947", "1948"],
         correctAnswer: 0
     },
     {
