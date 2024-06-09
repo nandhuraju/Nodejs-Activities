@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div1">
+        <h1>QuickCart.Com</h1>
+        <div class="div2">
+            <label for="item">Select Item:</label>
+            <select id="item">
+                <option value="Biscuit" data-price="20.00">Biscuit - ₹20.00</option>
+                <option value="Cookie" data-price="10.00">Cookie - ₹10.00</option>
+                <option value="Milk" data-price="30.00">Milk - ₹30.00</option>
+                <option value="Chocolate" data-price="25.00">Chocolate - ₹25.00</option>
+            </select>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" value="1" min="1">
+            <button id="add-to-cart">Add to Cart</button>
+        </div>
+        <table id="cart-table" class="tab">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+        <div style="margin-top: 10px;">
+            <b>Total Cart Value: ₹ <span id="total-value">0.00</span></b>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

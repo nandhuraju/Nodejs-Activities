@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder Application</title>
+   
+</head>
+<body>
+    <div>
+        <h1>Recipe Finder</h1>
+        <h2>Search Recipes by Ingredients</h2>
+        <input type="text" id="ingredient-input" placeholder="Enter ingredients separated by commas">
+        <button onclick="searchRecipes()">Search</button>
+        <div id="recipe-results"></div>
+        <h2>Favorite Recipes</h2>
+        <div id="favorite-recipes"></div>
+        <h2>Add New Recipe</h2>
+        <input type="text" id="new-recipe-name" placeholder="Recipe name">
+        <input type="text" id="new-recipe-ingredients" placeholder="Ingredients separated by commas">
+        <input type="number" id="new-recipe-time" placeholder="Preparation time (minutes)">
+        <input type="text" id="new-recipe-complexity" placeholder="Complexity (easy, medium, hard)">
+        <button onclick="addRecipe()">Add Recipe</button>
+    </div>
+
+    <script src="script.js">
+   
+    </script>
+</body>
+</html>
